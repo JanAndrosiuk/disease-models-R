@@ -56,7 +56,7 @@ IC <- function(inf.seed, inf.proba, inf.inf_period, net.neighbors) {
     # based on the infectious period
     inf.current_infectious <- unlist(tail(inf.log, inf.inf_period))
     
-    # get neighbors of currently infected
+    # get not-infected neighbors of currently infected nodes
     inf.current_neighbors <- setdiff(
       unlist(net.neighbors[inf.current_infectious], use.names=F),
       which(inf.status == 1)

@@ -18,7 +18,7 @@ rm(list=ls())
 library("rstudioapi")
 setwd(dirname(getActiveDocumentContext()$path)) 
 
-source("netowork_functions.R")
+source("network_functions.R")
 
 # library(visNetwork)
 # library(htmlwidgets)
