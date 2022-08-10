@@ -1,6 +1,6 @@
 # disease-models-R
 
-*Jan Androsiuk [[github]](https://github.com/JanAndrosiuk), Gregor Baer [[github]](https://github.com/gregorbaer), Lachezar Popov, Marius Lupulescu [[github]](https://github.com/mariusadrian77)*
+*Jan Androsiuk [[github]](https://github.com/JanAndrosiuk), Gregor Baer [[github]](https://github.com/gregorbaer), Lachezar Popov [[github]](https://github.com/lachezarpopov), Marius Lupulescu [[github]](https://github.com/mariusadrian77)*
 
 Hereby we present network spread models developed in R. Models were done as the part of assignment for the Network Analysis course at Utrecht University. So far we present:
 - Independent Cascade model 1: Stochastic model with constant probability of contagion and constant contagious period
